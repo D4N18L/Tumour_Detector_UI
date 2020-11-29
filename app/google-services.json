@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "522163066088",
+    "firebase_url": "https://tumour-detector-conv.firebaseio.com",
+    "project_id": "tumour-detector-conv",
+    "storage_bucket": "tumour-detector-conv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522163066088:android:b0fa68fcf66f1e09f0e55d",
+        "android_client_info": {
+          "package_name": "com.example.tumour_detector_conv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522163066088-b36jt161dmgknp9obkcgrbs971k60ffn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVUsdcdrT3iUQcirqsvS30lHD36UcGUAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522163066088-b36jt161dmgknp9obkcgrbs971k60ffn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

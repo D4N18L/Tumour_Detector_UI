@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tumour_Detector_Conv</string>
+    <string name="Welcome">Welcome</string>
+    <string name="fullname">Full name</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="Signup">Sign-Up</string>
+    <string name="Already">Already got an account?</string>
+    <string name="passicon">passicon</string>
+    <string name="emailicon">emailicon</string>
+    <string name="usernameicon">usernameicon</string>
+    <string name="fullnameicon">fullnameicon</string>
+
+    <string name="dashbord_welcome">Welcome to the Dashboard!!!</string>
+    <string name="click_login">Click Here to Log-out</string>
+    <string name="loginb">LOG-IN</string>
+    <string name="noaccount">Not Registered?</string>
+</resources>
