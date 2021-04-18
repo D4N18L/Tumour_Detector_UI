@@ -27,14 +27,40 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    aaptOptions {
+        noCompress 'tflite'
+        noCompress 'lite'
+    }
+    buildFeatures {
+        mlModelBinding true
+    }
 }
 
 dependencies {
 
+    //Tensorflow lite
+    implementation 'org.tensorflow:tensorflow-lite:+'
+    //AN IMAGE LOADING AND CACHING LIBRARY
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0-rc1'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0-rc1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    //AN IMAGE CROPPER LIBRARY
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.+'
+    //CARDVIEW LIBRARY
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
+    //Circle image view library
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.google.firebase:firebase-auth:20.0.1'
+    implementation 'com.google.firebase:firebase-firestore:22.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-storage:19.2.1'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

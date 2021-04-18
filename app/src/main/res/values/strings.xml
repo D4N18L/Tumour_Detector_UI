@@ -11,9 +11,21 @@
     <string name="emailicon">emailicon</string>
     <string name="usernameicon">usernameicon</string>
     <string name="fullnameicon">fullnameicon</string>
-
+    <string name="dashboard">Dashboard</string>
     <string name="dashbord_welcome">Welcome to the Dashboard!!!</string>
-    <string name="click_login">Click Here to Log-out</string>
+    <string name="click_logout">Log-out</string>
     <string name="loginb">LOG-IN</string>
     <string name="noaccount">Not Registered?</string>
+    <string name="Capture">Capture</string>
+    <string name="Upload">Upload Picture</string>
+    <string name="upload">Upload</string>
+    <string name="goback">Go Back</string>
+    <string name="takepic">Capture</string>
+    <string name="predictions">Predict Probability</string>
+
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -123,4 +123,30 @@
         app:layout_constraintVertical_bias="0.777"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/TestEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test3@gmail.com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TestPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test321"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

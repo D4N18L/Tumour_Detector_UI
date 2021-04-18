@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/DB">
+    <item
+        android:id="@+id/dashboard"
+        android:title="DashBoard"
+        android:icon ="@drawable/dashboard"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/Picture">
+    <item
+        android:id="@+id/upload_pic"
+        android:title="Upload Picture"
+        android:icon ="@drawable/upload"/>
+    <item
+        android:id="@+id/capture_pic"
+        android:title="Capture"
+        android:icon ="@drawable/camera"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/Data">
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon ="@drawable/profile"/>
+    </group>
+
+</menu>
